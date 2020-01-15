@@ -1,0 +1,9 @@
+<h1>Word Count</h1>
+
+{{hiMan}} <!--This is the python dictionary inside the html file-->
+
+<form action="{% url 'tothecountpage' %}"> <!--or simply we can write count in the action part-->
+    <textarea name="fulltext"></textarea><br><br> 
+    <button type="submit" value="count">Count</button>
+</form>
+<form  action="{% url 'aboutus' %}"><button>About</button></form>
